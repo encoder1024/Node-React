@@ -13,6 +13,7 @@
   },
 "scripts": {
   "dev": "vite",
+  "start": "node src/index.jsx",
   "build": "vite build",
   "preview": "vite preview"
 },
