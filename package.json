@@ -9,14 +9,15 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "serve": "^14.2.5",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "dev": "vite",
-  "start": "node src/index.jsx",
-  "build": "vite build",
-  "preview": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "start": "serve -s dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
