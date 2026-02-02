@@ -19,7 +19,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -r https://github.com -d dist"
+    "deploy": "gh-pages -r https://github.com/encoder1024/app_frutas_test.git -d dist"
   },
   "eslintConfig": {
     "extends": [
