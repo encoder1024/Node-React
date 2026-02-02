@@ -2,6 +2,7 @@
   "name": "app_frutas_test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://encoder1024.github.io",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -16,7 +17,9 @@
     "dev": "vite",
     "start": "serve -s dist",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
